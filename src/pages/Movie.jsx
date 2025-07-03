@@ -58,7 +58,7 @@ useEffect(() => {
               <p>{movie.runtime} minutos</p>
           </div>
           <div className="info description">
-            <h3><BsFillFileEarmarkTextFill /> Descrição:</h3>
+            <h3><BsFillFileEarmarkTextFill /> Descrição: 123</h3>
               <p>{movie.overview}</p>
           </div>
         </>
