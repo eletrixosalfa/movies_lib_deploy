@@ -47,7 +47,7 @@ useEffect(() => {
           <p className="tagline">{movie.tagline}</p>
           <div className="info">
             <h3><BsWallet2 /> Orçamento:</h3>
-              <p>{formatCurrency(movie.budget)}</p>
+              <p>${formatCurrency(movie.budget)}</p>
           </div>
           <div className="info">
             <h3><BsGraphUp /> Receita:</h3>

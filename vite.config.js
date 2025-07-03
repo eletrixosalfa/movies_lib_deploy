@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  base: '/movies_lib/',
+export default defineConfig(({ mode }) => {
+  return {
+    base: mode === 'production' ? '/NOME_DO_REPOSITORIO/' : '/',
+    plugins: [react()],
+  }
 })
